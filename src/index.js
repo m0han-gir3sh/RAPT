@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AboutUs from './page/about';
-import './App.css';
 import Nav from './page/nav';
+import Footer from './page/footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +20,7 @@ root.render(
     <br></br> 
     <br></br>
     <AboutUs/>
+    <Footer/>
     </div>
     
   </React.StrictMode>

@@ -27,62 +27,73 @@ body {
 
  }
 .divv:hover {
-  width: 1119px;
+  width: 1100px;
   text-shadow: 3px 3px 3px rgb(255, 255, 255);
   border-radius: 2%;
-  background-color: white;
+  background-color: transparent;
+}
+.ABOUTUS
+{
+  text-align: center;
 }
 .para1 {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   box-shadow: 5px 5px 15px black;
   border-radius: 20px;
-
+  margin-top: 60px;
   margin-bottom: 100px;
   margin-left: 200px;
   margin-right: 200px;
-
   background-color: transparent;
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   
 }
+
 .para1:hover {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
-  font-size: 31px;
-  box-shadow: 15px 15px 15px black;
+  font-size: 32px;
+  box-shadow: 5px 5px 15px black;
   border-radius: 30px;
   
   margin-bottom: 100px;
   margin-left: 200px;
   margin-right: 200px;
+  padding-left: 10px;
   
-
   background-color: transparent;
-  text-align: center;
+  text-align: left;
+
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   
 }
 
-
 .img2{
-  padding-left:53vw ;
-  width: 20px;
+  background-image: url("https://res.cloudinary.com/dnqmodo6i/image/upload/v1670821579/pic2_ajjdm1.jpg");
+  width:650px;
+  height:500px;
+  background-repeat: no-repeat;
+  margin-left: 790px;
 }
 
 .text2{
   box-shadow: 5px 5px 15px 10px black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   margin-top: -350px;
+   margin-top: -400px;
    margin-left: 170px;
    margin-right: 790px;
-   margin-bottom: 150px;
+   margin-bottom: 250px;
    padding-left: 35px;
    padding-top: 5px;
-   padding-bottom: 20px;
+   padding-bottom: 25px;
    border-radius: 10px;
    font-size: 20px;
    line-height:1.7;
@@ -90,16 +101,20 @@ body {
 
 }
 .img3{
-  padding-left:10vw ;
-  width: 20px;
+
+  background-image: url("https://res.cloudinary.com/dnqmodo6i/image/upload/v1670821592/pic3_psrrde.jpg");
+  width:650px;
+  height:500px;
+  background-repeat: no-repeat;
+  margin-left: 130px;
 }
 .text3{
   box-shadow: 5px 5px 15px 10px black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   margin-top: -375px;
+   margin-top: -410px;
    margin-left: 900px;
    margin-right: 170px;
-   margin-bottom: 150px;
+   margin-bottom: 200px;
    padding-left: 35px;
    padding-right: 35px;
    padding-top: 20px;
@@ -110,13 +125,16 @@ body {
 
 }
 .img4{
-  padding-left:50vw ;
-  width: 20px;
+  background-image: url("https://res.cloudinary.com/dnqmodo6i/image/upload/v1670821602/pic4_jtxx1h.jpg");
+  width:650px;
+  height:500px;
+  background-repeat: no-repeat;
+  margin-left: 790px;
 }
 .text4{
   box-shadow: 5px 5px 15px 10px black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   margin-top: -360px;
+   margin-top: -420px;
    margin-left: 150px;
    margin-right: 850px;
    margin-bottom: 150px;
@@ -127,7 +145,7 @@ body {
    padding-bottom: 50px;
    border-radius: 10px;
    font-size: 20px;
-   line-height:1;
+   line-height:1.2;
    background-color: rgb(178, 231, 151);
 
 }
@@ -143,23 +161,4 @@ body {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.text-footer {
-	text-align: center;
-  width: 32.97vw;
-  height: 150px;
-	padding: 25px 0;
-	font-family: 'Ubuntu', sans-serif;
-	display: flex;
-	justify-content: center;
-	background-color: rgb(0, 0, 0);
-  color: white;
-  line-height:2;
-}
-.footer{
-  display: flex;
-  margin: auto;
-  background: cover;
-  margin-bottom: auto;
 }
